@@ -1,0 +1,24 @@
+{
+  "name": "fb-emulator-codelab",
+  "version": "1.0.0",
+  "description": "personal project for learning how to use the firebase local emulator",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "PORT=3001 node app"
+  },
+  "dependencies": {
+    "firestore": "^1.1.6",
+    "localDevServer": "file:_devserver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CliffCrerar/fb-emulator-codelab.git"
+  },
+  "author": "Cliff Crerar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CliffCrerar/fb-emulator-codelab/issues"
+  },
+  "homepage": "https://github.com/CliffCrerar/fb-emulator-codelab#readme"
+}
